@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "www.kirbskol.com",
-      "destination": "https://kirbskol.com",
-      "statusCode": 301
-    }
-  ]
-}
