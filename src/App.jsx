@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Logo } from './design/Logo'
 import { GitHub, LinkedIn } from './design/Icons'
-import './App.css'
 
 function App() {
   const [dotCount, setDotCount] = useState(0);
@@ -15,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center w-full h-[80vh] max-h-[80vh] sm:max-h-[100vh] sm:h-[100vh] gap-4">
         <div className="flex flex-col items-center">
           <a href="./" target="_self">
             <Logo />
