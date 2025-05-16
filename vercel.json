@@ -1,3 +1,9 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "redirects": [
+    {
+      "source": "www.kirbskol.com",
+      "destination": "https://kirbskol.com",
+      "statusCode": 301
+    }
+  ]
 }
