@@ -20,7 +20,6 @@ function App() {
             <Logo />
           </a>
         </div>
-        <h1><b>SkolDev</b><i>Labs</i></h1>
         <div className="card">
           <p>
             <code>Website under development{'.'.repeat(dotCount)}</code>

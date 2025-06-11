@@ -5,7 +5,7 @@ export const Logo = ({variant, position, classes}) => {
 
   const styles = {
   small: "h-auto max-h-[7.5em] w-[7.5em] max-w-[7.5em]",
-  normal: "h-auto max-h-[15em] w-[15em] max-w-[15em]",
+  normal: "h-auto max-h-[50em] w-[40em] max-w-[50em]",
   large: "h-auto max-h-[30em] w-[30em] max-w-[30em]",
 };
 
@@ -20,7 +20,7 @@ export const Logo = ({variant, position, classes}) => {
     <>
       <img 
         className={`${classes} ${logoStyle}`} 
-        src={`${skolCDN_URL}${logoUrl}`} 
+        src={`${logoUrl}`} 
       />
     </>
   )
